@@ -46,15 +46,15 @@ Application中加入代码。
 
 要显示banner广告的Activity加入代码。
 ```kotlin
-    override fun onResume() {
-        super.onResume()
-        IronSource.onResume(this)
-    }
+override fun onResume() {
+    super.onResume()
+    IronSource.onResume(this)
+}
 
-    override fun onPause() {
-        super.onPause()
-        IronSource.onPause(this)
-    }
+override fun onPause() {
+    super.onPause()
+    IronSource.onPause(this)
+}
 ```
 
 可设置回调接口。
