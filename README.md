@@ -28,10 +28,10 @@ dependencies {
 
 Application中加入代码。
 ```kotlin
-    override fun attachBaseContext(base: Context?) {
-        super.attachBaseContext(base)
-        DoraIronSource.setAppKey("填入你的Iron Source App Key")
-    }
+override fun attachBaseContext(base: Context?) {
+    super.attachBaseContext(base)
+    DoraIronSource.setAppKey("填入你的Iron Source App Key")
+}
 ```
 
 在AndroidManifest中加入配置。
