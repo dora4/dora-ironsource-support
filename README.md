@@ -9,8 +9,6 @@ dora-ironsource-support
 dependencyResolutionManagement {
     repositories {
         maven { setUrl("https://jitpack.io") }
-        // IronSource
-        maven { setUrl("https://android-sdk.is.com/") }
     }
 }
 ```
