@@ -101,7 +101,7 @@ xml布局。
 // 伪代码，实际请设置为成员属性
 val listener = DoraBannerViewListener(binding.bannerFooter)
 // 展示横幅广告
-listener.showBanner()
+listener.loadBanner()
 // 销毁横幅广告
 listener.destroyBanner()
 ```
