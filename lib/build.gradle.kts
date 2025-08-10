@@ -25,7 +25,7 @@ android {
 }
 
 dependencies {
-    implementation("com.github.dora4:dora:1.2.6")
+    implementation("com.github.dora4:dora:1.3.14")
     api("com.ironsource.sdk:mediationsdk:8.1.0")
 }
 
@@ -36,7 +36,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.dora4"
                 artifactId = "dora-ironsource-support"
-                version = "1.0"
+                version = "1.1"
             }
         }
     }
